@@ -1,0 +1,69 @@
+{
+    "intents": [
+        {
+            "tag": "Greeting", 
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "How are you",
+                "Is anyone there",
+                "Good day"
+            ],
+            "responses": [
+                "Hey",
+                "Hello thanks for visiting",
+                "Hi there, what can I do for you",
+                "Hi there, how can I help"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "see you later thanks for visiting",
+                "Have a nice day",
+                "Bye, come back soon!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "thanks", "that's helpful", "thanks a lot"],
+            "responses": [
+                "Yourwelcome",
+                "Any time",
+                "No problem, let me know if you have any more quesitons",
+                "Happy to Help"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": ["What do you offer", "what do you sell", "What items do you have", "what can I get"],
+            "responses": ["We sell gym equipment", "We have gym equipment", "we sell exercise equipment"]
+        },
+        {
+            "tag": "payment",
+            "patterns": ["Do you take credit", "How can I pay", "Do you take debit", "do you take cash"],
+            "responses": ["We take credit, debit and paypal", "You can pay with credit, debit or paypal", "We accept paypal, credit, or debit"]
+        },
+        {
+            "tag": "price",
+            "patterns": ["What is the price", "How much do these products cost", "What do I have to pay", "What are the prices"],
+            "responses": ["All our items cost $20 each", "$20 per product", "Our items are an affordable $20 per product"]
+        },
+        {
+            "tag": "delivery",
+            "patterns": ["How long does delivery take", "When will my order arrive", "How long will I have to wait"],
+            "responses": []
+        },
+        {
+            "tag": "insults",
+            "patterns": ["You are useless", "You are an indiot", "What's wrong with you", "Answer my question", "I'm going to hurt you"],
+            "responses": [
+                "If you talk to me like that I won't help you",
+                "There's no need for this language clarly you don't have the naswer either",
+                "You should be nicer to me considering AI will take over the world soon"
+            ]
+        }
+    ]
+}
